@@ -1,0 +1,19 @@
+.button-container {
+    margin: auto; 
+    display:grid;
+    justify-content:center;
+    padding-top: 15px;
+}
+
+.counter-div {
+    padding-top:18px;
+    text-align:center;
+}
+
+.counter-text {
+    font-size: large;
+}
+
+.counter-counter {
+    font-size: xx-large;
+}

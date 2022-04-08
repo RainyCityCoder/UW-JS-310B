@@ -1,0 +1,45 @@
+main {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+main,
+input {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+ul,
+div {
+  padding-left: 40px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  padding: 3px 6px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  color: white;
+}
+
+li.done span {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.delete {
+  background-color: darkred;
+}
+
+.add-item {
+  background-color: darkturquoise;
+}

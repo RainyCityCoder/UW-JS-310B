@@ -1,0 +1,32 @@
+#weather li {
+  min-height: 62px;
+  position: relative;
+  padding-left: 67px;
+}
+
+#weather li::before {
+  left: 0;
+  position: absolute;
+  content: ' ';
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rain::before {
+  background-image: url(https://freesvg.org/img/Cute-Rain-Cloud.png);
+  height: 50px;
+  width: 43px;
+}
+
+.sun::before {
+  background-image: url(https://freesvg.org/img/Cartoon-Sun.png);
+  height: 50px;
+  width: 50px;
+}
+
+.cloudy::before {
+  background-image: url(https://cdn.pixabay.com/photo/2013/04/01/09/22/clouds-98536_1280.png);
+  height: 50px;
+  width: 62px;
+}

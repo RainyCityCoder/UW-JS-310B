@@ -1,0 +1,21 @@
+main {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+img {
+  width: 500px;
+}
+
+#cta {
+  padding: 10px 20px;
+  background-color: cadetblue;
+  color: white;
+}
+
+.highlight {
+  color: darkorchid;
+  font-weight: bold;
+}

@@ -1,0 +1,7 @@
+.valid {
+    border: 2px, solid, turquoise;
+}
+
+.invalid {
+    box-shadow: 2px, 2px, 5px, firebrick;
+}
